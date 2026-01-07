@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} bg-stone-50 text-stone-900 antialiased`}>
+        <meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
         {children}
       </body>
     </html>
