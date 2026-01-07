@@ -11,6 +11,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "PickJoy | Pets & Smart Tools",
   description: "Curated essentials to bring joy to your pets and efficiency to your life.",
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
